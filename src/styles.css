@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.action-form {
+  width: 350px;
+  margin: 0 auto;
+  border: 3px solid rgb(1, 211, 211);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: rgb(138, 6, 6);
+}
+
+input[type='text'] {
+  font-size: 25px;
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+.conteiner {
+  width: 100%;
+  width: 520px;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.countries-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.titel-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-capital {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.populat-num {
+  font-size: 20px;
+}
+
+.list-languag {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  list-style: none;
+}
+
+.list-name-countries {
+  font-size: 30px;
+  list-style-type: decimal;
+}
